@@ -1,9 +1,0 @@
-on:
-  workflow-call:
-
-jobs:
-  called-workflow-job:
-    runs-on: ubuntu
-    steps:
-    - name: echo
-      run: echo "simple echo from called-workflow-job"
