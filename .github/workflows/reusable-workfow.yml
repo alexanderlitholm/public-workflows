@@ -1,11 +1,11 @@
 name: test-workflow
 
 on:
-  workflow-call:
+  workflow_call:
 
 jobs:
   called-workflow-job:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
     - name: echo
       run: echo "simple echo from called-workflow-job"
